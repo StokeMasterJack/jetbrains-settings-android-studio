@@ -81,12 +81,14 @@
         <entry key="app/src/main/res/drawable/ic_featured.xml" value="0.128125" />
         <entry key="app/src/main/res/drawable/ic_github.xml" value="0.37037037037037035" />
         <entry key="app/src/main/res/drawable/ic_github_24px.xml" value="0.3296296296296296" />
+        <entry key="app/src/main/res/drawable/ic_github_demo.xml" value="0.3296296296296296" />
         <entry key="app/src/main/res/drawable/ic_grain.xml" value="0.128125" />
         <entry key="app/src/main/res/drawable/ic_hamburger.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_logo.xml" value="0.128125" />
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.44166666666666665" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.5546875" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.5229166666666667" />
+        <entry key="app/src/main/res/layout/dave_activity2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.5546875" />
       </map>
     </option>
