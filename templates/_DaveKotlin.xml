@@ -1,5 +1,5 @@
 <templateSet group="_DaveKotlin">
-  <template name="f" value="fun $NAME$() : $RETURN$ {&#10;$END$&#10;}" description="Function with no parameters" toReformat="true" toShortenFQNames="true">
+  <template name="ff" value="fun $NAME$() : $RETURN$ {&#10;$END$&#10;}" description="Function with no parameters" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;f1&quot;" alwaysStopAt="true" />
     <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
     <context>
