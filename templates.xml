@@ -3,6 +3,14 @@
     <option name="deletedKeys">
       <list>
         <TemplateKey>
+          <option name="groupName" value="AndroidLogKotlin" />
+          <option name="key" value="logm" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidLogKotlin" />
+          <option name="key" value="logt" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_if" />
         </TemplateKey>
