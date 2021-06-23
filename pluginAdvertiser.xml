@@ -57,6 +57,16 @@
                       <FeaturePluginData displayName="Arquillian TestNG" pluginName="com.intellij.jboss.arquillian" pluginId="com.intellij.jboss.arquillian" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="BashConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Legacy BashSupport" pluginName="BashSupport Pro" pluginId="pro.bashsupport" />
+                    </value>
+                  </entry>
+                  <entry key="BashProRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="BashSupport Pro" pluginName="BashSupport Pro" pluginId="pro.bashsupport" />
+                    </value>
+                  </entry>
                   <entry key="ChromiumRemoteDebugType">
                     <value>
                       <FeaturePluginData displayName="Attach to Node.js/Chrome" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
@@ -75,6 +85,26 @@
                   <entry key="CucumberJavaRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Cucumber Java" pluginName="Cucumber for Java" pluginId="cucumber-java" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="DartCommandLineRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Dart Command Line App" pluginName="Dart" pluginId="Dart" />
+                    </value>
+                  </entry>
+                  <entry key="DartRemoteDebugConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Dart Remote Debug" pluginName="Dart" pluginId="Dart" />
+                    </value>
+                  </entry>
+                  <entry key="DartTestRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Dart Test" pluginName="Dart" pluginId="Dart" />
+                    </value>
+                  </entry>
+                  <entry key="DartWebdevConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Dart Web" pluginName="Dart" pluginId="Dart" />
                     </value>
                   </entry>
                   <entry key="DatabaseScript">
@@ -219,7 +249,7 @@
                   </entry>
                   <entry key="ShConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="Shell Script" pluginName="Shell Script" pluginId="com.jetbrains.sh" bundled="true" />
+                      <FeaturePluginData displayName="Shell Script (by BashSupport Pro)" pluginName="BashSupport Pro" pluginId="pro.bashsupport" />
                     </value>
                   </entry>
                   <entry key="SpaceRunConfiguration">
@@ -270,6 +300,11 @@
                   <entry key="XSLT">
                     <value>
                       <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="bashpro.bats-core">
+                    <value>
+                      <FeaturePluginData displayName="bats-core" pluginName="BashSupport Pro" pluginId="pro.bashsupport" />
                     </value>
                   </entry>
                   <entry key="docker-deploy">
