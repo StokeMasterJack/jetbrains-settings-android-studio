@@ -6,7 +6,7 @@
     <macro name="GRADLE" value="/Users/dford/_sdk/v/gradle" />
     <macro name="GRADLE_HOME" value="/Users/dford/_sdk/v/gradle/7.0.2" />
     <macro name="GRADLE_USER_HOME" value="/Users/dford/_sdk/_/gradle" />
-    <macro name="JAVA_HOME" value="/Users/dford/_sdk/v/java/corretto//11.0.11" />
+    <macro name="JAVA_HOME" value="/Users/dford/_sdk/v/java/corretto/11.0.11/Contents/Home" />
     <macro name="JDK" value="/Users/dford/_sdk/v/java" />
     <macro name="KOTLIN" value="/Users/dford/_sdk/v/kotlin" />
     <macro name="KOTLIN_BUNDLED" value="/Users/dford/Library/Application Support/JetBrains/IntelliJIdea2021.1/plugins/Kotlin/kotlinc" />
@@ -14,11 +14,9 @@
     <macro name="MAVEN" value="/Users/dford/_sdk/v/maven" />
     <macro name="MAVEN_HOME" value="/Users/dford/_sdk/v/maven/3.8.1" />
     <macro name="MAVEN_USER_HOME" value="/Users/dford/_sdk/_/m2" />
-    <macro name="POOP" value="/Users/dford/_sdk/_" />
     <macro name="SDK" value="/Users/dford/_sdk" />
     <macro name="SDKN" value="/Users/dford/_sdk/n" />
     <macro name="SDKU" value="/Users/dford/_sdk/_" />
     <macro name="SDKV" value="/Users/dford/_sdk/v" />
-    <macro name="SDK_" value="/Users/dford/_sdk/_" />
   </component>
 </application>
