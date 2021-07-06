@@ -1,0 +1,10 @@
+<application>
+  <component name="MarkdownApplicationSettings">
+    <MarkdownCssSettings UriEnabled="true" StylesheetUri="/Volumes/repos/scratch/t3/css/intellij-markdown.css" />
+    <MarkdownPreviewSettings AutoScrollPreview="false" />
+    <enabledExtensions>
+      <entry key="MermaidLanguageExtension" value="false" />
+      <entry key="PlantUMLLanguageExtension" value="false" />
+    </enabledExtensions>
+  </component>
+</application>
