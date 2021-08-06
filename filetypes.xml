@@ -2,7 +2,6 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="ddd" type="AUTO_DETECTED" />
-      <mapping pattern=".zshrc" type="BashPro Shell Script" />
       <mapping ext="tsbuildinfo" type="JSON" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
@@ -13,6 +12,7 @@
       <removed_mapping ext="psd" approved="true" type="Adobe Photoshop" />
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping ext="zsh" approved="true" type="Shell Script" />
+      <mapping pattern=".zshrc" type="BashPro Shell Script" />
     </extensionMap>
   </component>
 </application>
