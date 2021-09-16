@@ -73,4 +73,10 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="sql" value="//language=MySQL" description="//language=MySQL" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
