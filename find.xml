@@ -5,6 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.css" />
     <mask>*.tsx*</mask>
     <mask>*.kts</mask>
     <mask>*.js*</mask>
@@ -13,11 +14,11 @@
     <mask>*.tsx</mask>
     <mask>*.kt</mask>
     <mask>*.kt*</mask>
-    <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
+    <mask>*.css</mask>
   </component>
 </application>
