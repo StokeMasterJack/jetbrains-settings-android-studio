@@ -109,16 +109,19 @@
       <place><![CDATA[jsLiteral().and(asAssignedValue("text", "*", "dbStatement"))]]></place>
       <place><![CDATA[jsLiteral().and(asAssignedValue("text", "flash.data.SQLStatement"))]]></place>
     </injection>
-    <injection language="JPAQL" injector-id="kotlin">
-      <display-name>JPAQL</display-name>
-      <single-file value="false" />
-    </injection>
     <injection language="RegExp" injector-id="kotlin">
       <display-name>Kotlin</display-name>
       <single-file value="true" />
       <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("Regex").definedInClass("kotlin.text.Regex"))]]></place>
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toPattern").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toRegex").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
+    </injection>
+    <injection language="JPAQL" injector-id="kotlin">
+      <display-name>createQuery</display-name>
+      <prefix>createQuery(</prefix>
+      <suffix>)</suffix>
+      <single-file value="false" />
+      <place><![CDATA[createQuery]]></place>
     </injection>
     <injection language="JSON" injector-id="sql">
       <display-name>ClickHouse JSON</display-name>
