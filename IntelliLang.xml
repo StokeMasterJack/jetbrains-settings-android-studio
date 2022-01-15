@@ -118,10 +118,8 @@
     </injection>
     <injection language="JPAQL" injector-id="kotlin">
       <display-name>createQuery</display-name>
-      <prefix>createQuery(</prefix>
-      <suffix>)</suffix>
       <single-file value="false" />
-      <place><![CDATA[createQuery]]></place>
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("createQuery").definedInClass("javax.persistence.EntityManager"))]]></place>
     </injection>
     <injection language="JSON" injector-id="sql">
       <display-name>ClickHouse JSON</display-name>
