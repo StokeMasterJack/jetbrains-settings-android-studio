@@ -109,6 +109,11 @@
       <place><![CDATA[jsLiteral().and(asAssignedValue("text", "*", "dbStatement"))]]></place>
       <place><![CDATA[jsLiteral().and(asAssignedValue("text", "flash.data.SQLStatement"))]]></place>
     </injection>
+    <injection language="JPAQL" injector-id="kotlin">
+      <display-name>JPA createQuery</display-name>
+      <single-file value="false" />
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("createQuery").withReceiver("javax.persistence.EntityManager"))]]></place>
+    </injection>
     <injection language="RegExp" injector-id="kotlin">
       <display-name>Kotlin</display-name>
       <single-file value="true" />
