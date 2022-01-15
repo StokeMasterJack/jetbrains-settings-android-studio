@@ -116,11 +116,6 @@
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toPattern").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toRegex").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
     </injection>
-    <injection language="JPAQL" injector-id="kotlin">
-      <display-name>createQuery</display-name>
-      <single-file value="false" />
-      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("createQuery").definedInClass("javax.persistence.EntityManager"))]]></place>
-    </injection>
     <injection language="JSON" injector-id="sql">
       <display-name>ClickHouse JSON</display-name>
       <single-file value="true" />
