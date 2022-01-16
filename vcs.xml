@@ -6,6 +6,10 @@
           <option name="url" value="http://bitbucket.org" />
           <option name="userName" value="DavidFordFast" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="StokeMasterJack" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
