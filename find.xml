@@ -8,7 +8,6 @@
     <mask>*.tsx*</mask>
     <mask>*.kts</mask>
     <mask>*.js*</mask>
-    <mask>*.kt</mask>
     <mask>*.kt*</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -19,7 +18,8 @@
     <mask>package.json</mask>
     <mask>*.ts</mask>
     <mask>*.tsx</mask>
-    <mask>*.ts*</mask>
     <mask>*.d.ts</mask>
+    <mask>*.ts*</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
