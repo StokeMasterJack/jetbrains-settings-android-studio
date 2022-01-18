@@ -10,6 +10,7 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".env.stage" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".analysis_options" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bash" approved="true" type="Shell Script" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
