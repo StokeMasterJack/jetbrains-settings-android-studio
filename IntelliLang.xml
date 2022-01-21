@@ -40,6 +40,12 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("assertNull").definedInClass("com.jayway.jsonassert.JsonAsserter"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("assertThat").definedInClass("com.jayway.jsonassert.JsonAsserter"))]]></place>
     </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>QueryProducer (org.hibernate.query)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createSQLQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
+    </injection>
     <injection language="RoomSql" injector-id="java">
       <display-name>Room Query annotation</display-name>
       <single-file value="true" />
@@ -75,6 +81,24 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("next").withParameters("java.lang.String").definedInClass("java.util.Scanner"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("skip").withParameters("java.lang.String").definedInClass("java.util.Scanner"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("useDelimiter").withParameters("java.lang.String").definedInClass("java.util.Scanner"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Session.createNativeQuery (org.hibernate)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").definedInClass("org.hibernate.reactive.mutiny.Mutiny.Session"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").definedInClass("org.hibernate.reactive.mutiny.Mutiny.StatelessSession"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").definedInClass("org.hibernate.reactive.stage.Stage.Session"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").definedInClass("org.hibernate.reactive.stage.Stage.StatelessSession"))]]></place>
+    </injection>
+    <injection language="HQL" injector-id="java">
+      <display-name>Session.createQuery (org.hibernate)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.Session"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.mutiny.Mutiny.Session"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.mutiny.Mutiny.StatelessSession"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.stage.Stage.Session"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.stage.Stage.StatelessSession"))]]></place>
     </injection>
     <injection language="RegExp" injector-id="java">
       <display-name>String (java.lang)</display-name>
