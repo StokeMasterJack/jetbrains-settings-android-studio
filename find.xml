@@ -16,11 +16,11 @@
     <mask>*.java</mask>
     <mask>*.css</mask>
     <mask>package.json</mask>
-    <mask>*.ts</mask>
     <mask>*.tsx</mask>
     <mask>*.d.ts</mask>
-    <mask>*.ts*</mask>
     <mask>*.kt</mask>
     <mask>*.js</mask>
+    <mask>*.ts</mask>
+    <mask>*.ts*</mask>
   </component>
 </application>
