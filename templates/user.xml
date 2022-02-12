@@ -1,8 +1,0 @@
-<templateSet group="user">
-  <template name="&lt;abbreviation&gt;" value="//language=MySQL" description="" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="KOTLIN_EXPRESSION" value="true" />
-      <option name="KOTLIN_STATEMENT" value="true" />
-    </context>
-  </template>
-</templateSet>
