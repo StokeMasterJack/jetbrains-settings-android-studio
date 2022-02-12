@@ -48,7 +48,7 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="sl" value="private val log = Logger.getLogger(object{}::class.simpleName)" description="static lof decl" toReformat="false" toShortenFQNames="true">
+  <template name="sl" value="private val log = mu.KotlinLogging.logger {}" description="static lof decl" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
@@ -77,6 +77,26 @@
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="sle" value="log.error(e) { $END$ }" description="log.error(e) { $END$ }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="slw" value="log.warn { $END$ }" description="log.warn { $END$ }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sli" value="log.info { $END$ }" description="log.info { $END$ }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sld" value="log.debug { $END$ }" description="log.debug { $END$ }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
