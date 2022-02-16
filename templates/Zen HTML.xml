@@ -8,6 +8,9 @@
   <template name="str" value="&lt;strong&gt;$END$&lt;/strong&gt;" description="&lt;strong&gt;...&lt;/strong&gt;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
+  <template name="b" value="&lt;b&gt;$END$&lt;/b&gt;" shortcut="NONE" description="&lt;b&gt;...&lt;/b&gt;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
   <template name="i" value="&lt;i&gt;$END$&lt;/i&gt;" shortcut="NONE" description="&lt;i&gt;...&lt;/i&gt;" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
