@@ -5,6 +5,7 @@
         <option name="suppressed">
           <set>
             <option value="Id" />
+            <option value="functions functions" />
           </set>
         </option>
       </SuppressingContext>
