@@ -146,9 +146,19 @@
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toRegex").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
     </injection>
     <injection language="MySQL" injector-id="kotlin">
+      <display-name>conn.executeQuery</display-name>
+      <single-file value="false" />
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("executeQuery").withReceiver("java.sql.Connection"))]]></place>
+    </injection>
+    <injection language="MySQL" injector-id="kotlin">
       <display-name>conn.executeUpdate</display-name>
       <single-file value="false" />
       <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("executeUpdate").withReceiver("java.sql.Connection"))]]></place>
+    </injection>
+    <injection language="MySQL" injector-id="kotlin">
+      <display-name>conn.str</display-name>
+      <single-file value="false" />
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("str").withReceiver("java.sql.Connection"))]]></place>
     </injection>
     <injection language="JSON" injector-id="sql">
       <display-name>ClickHouse JSON</display-name>
