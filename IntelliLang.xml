@@ -156,6 +156,11 @@
       <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("executeUpdate").withReceiver("java.sql.Connection"))]]></place>
     </injection>
     <injection language="MySQL" injector-id="kotlin">
+      <display-name>conn.int</display-name>
+      <single-file value="false" />
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("int").withReceiver("java.sql.Connection"))]]></place>
+    </injection>
+    <injection language="MySQL" injector-id="kotlin">
       <display-name>conn.str</display-name>
       <single-file value="false" />
       <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("str").withReceiver("java.sql.Connection"))]]></place>
