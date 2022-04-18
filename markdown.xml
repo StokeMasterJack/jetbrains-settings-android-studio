@@ -1,6 +1,8 @@
 <application>
   <component name="MarkdownApplicationSettings">
-    <MarkdownCssSettings UriEnabled="true" StylesheetUri="/Volumes/repos/scratch/t3/css/intellij-markdown.css" />
+    <MarkdownCssSettings UriEnabled="true" StylesheetUri="/Volumes/repos/scratch/t3/css/intellij-markdown.css">
+      <option name="fontSize" value="13" />
+    </MarkdownCssSettings>
     <MarkdownPreviewSettings AutoScrollPreview="false" />
     <enabledExtensions>
       <entry key="MermaidLanguageExtension" value="false" />
