@@ -4,11 +4,12 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
+            <option value="Move the notes directory into" />
             <option value="functions functions" />
             <option value="Id" />
             <option value="PO PO" />
             <option value="NEW NEW" />
-            <option value="Move the notes directory into" />
+            <option value="rs.first" />
           </set>
         </option>
       </SuppressingContext>
