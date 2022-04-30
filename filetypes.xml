@@ -18,6 +18,7 @@
       <removed_mapping ext="py" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping ext="zsh" approved="true" type="Shell Script" />
+      <removed_mapping pattern=".analysis_options" approved="true" type="YAML" />
       <mapping pattern=".zshrc" type="BashPro Shell Script" />
     </extensionMap>
   </component>
