@@ -109,4 +109,9 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="su" value="@BeforeTest&#10;    fun setUp() {&#10;        &#10;    }&#10;&#10;    @AfterTest&#10;    fun tearDown() {&#10;&#10;    }" description="Inserts setUp and tearDown methods" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
 </templateSet>
