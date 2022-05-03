@@ -6,10 +6,11 @@
           <set>
             <option value="Move the notes directory into" />
             <option value="functions functions" />
+            <option value="rs.first" />
             <option value="Id" />
             <option value="PO PO" />
             <option value="NEW NEW" />
-            <option value="rs.first" />
+            <option value="startTime.date" />
           </set>
         </option>
       </SuppressingContext>
