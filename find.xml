@@ -7,6 +7,7 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.kt" />
     <mask>*.tsx*</mask>
     <mask>*.kts</mask>
     <mask>*.js*</mask>
@@ -19,10 +20,10 @@
     <mask>package.json</mask>
     <mask>*.tsx</mask>
     <mask>*.d.ts</mask>
-    <mask>*.kt</mask>
     <mask>*.js</mask>
     <mask>*.ts</mask>
     <mask>*.ts*</mask>
     <mask>*.html</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
