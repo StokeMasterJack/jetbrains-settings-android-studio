@@ -9,8 +9,11 @@
             <option value="rs.first" />
             <option value="Id" />
             <option value="PO PO" />
-            <option value="NEW NEW" />
             <option value="startTime.date" />
+            <option value="NEW NEW" />
+            <option value="props.value" />
+            <option value="state.rows" />
+            <option value="state.row" />
           </set>
         </option>
       </SuppressingContext>
