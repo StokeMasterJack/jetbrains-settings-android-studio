@@ -1,0 +1,22 @@
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="DART" value="/Users/dford/_df/sdk/v/dart" />
+    <macro name="DART_HOME" value="/Users/dford/_df/sdk/v/dart/2.10.5" />
+    <macro name="DF" value="/Users/dford/_df" />
+    <macro name="GRADLE" value="/Users/dford/_df/sdk/v/gradle" />
+    <macro name="GRADLE_HOME" value="/Users/dford/_df/sdk/v/gradle/7.1.1" />
+    <macro name="JAVA_HOME" value="/Users/dford/_df/sdk/v/java/openjdk/11.0.11/Contents/Home" />
+    <macro name="JDK" value="/Users/dford/_df/sdk/v/java" />
+    <macro name="KOTLIN" value="/Users/dford/_df/sdk/v/kotlin" />
+    <macro name="KOTLIN_BUNDLED" value="/Users/dford/_df/sdk/_/idea/2021.1.3/plugins/Kotlin/kotlinc" />
+    <macro name="KOTLIN_HOME" value="/Users/dford/_df/sdk/v/kotlin/1.5.10" />
+    <macro name="MAVEN" value="/Users/dford/_df/sdk/v/maven" />
+    <macro name="MAVEN_HOME" value="/Users/dford/_df/sdk/v/maven/3.8.1" />
+    <macro name="MAVEN_REPOSITORY" value="/Users/dford/_df/sdk/_/m2/repository" />
+    <macro name="MAVEN_USER_HOME" value="/Users/dford/_df/sdk/_/m2" />
+    <macro name="SDK" value="/Users/dford/_df/sdk" />
+    <macro name="SDKN" value="/Users/dford/_df/sdk/n" />
+    <macro name="SDKU" value="/Users/dford/_df/sdk/_" />
+    <macro name="SDKV" value="/Users/dford/_df/sdk/v" />
+  </component>
+</application>

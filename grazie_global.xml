@@ -1,0 +1,31 @@
+<application>
+  <component name="GraziConfig">
+    <option name="suppressingContext">
+      <SuppressingContext>
+        <option name="suppressed">
+          <set>
+            <option value="Move the notes directory into" />
+            <option value="functions functions" />
+            <option value="rs.first" />
+            <option value="Id" />
+            <option value="PO PO" />
+            <option value="startTime.date" />
+            <option value="NEW NEW" />
+            <option value="props.value" />
+            <option value="state.rows" />
+            <option value="state.row" />
+          </set>
+        </option>
+      </SuppressingContext>
+    </option>
+    <option name="detectionContext">
+      <State>
+        <option name="disabled">
+          <set>
+            <option value="SWEDISH" />
+          </set>
+        </option>
+      </State>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="CopyAsRichText">
+        <abbreviation name="crt" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
