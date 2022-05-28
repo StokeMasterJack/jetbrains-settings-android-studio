@@ -335,6 +335,21 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.intellij.jsp">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.javaee.el" />
+                  <option value="com.intellij.modules.jsp.base" />
+                  <option value="com.intellij.modules.ultimate" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.intellij.laf.macos">
           <value>
             <PluginData>
@@ -755,9 +770,7 @@
         </entry>
         <entry key="org.intellij.groovy">
           <value>
-            <PluginData>
-              <option name="enabled" value="false" />
-            </PluginData>
+            <PluginData />
           </value>
         </entry>
         <entry key="org.intellij.qodana">
@@ -1004,7 +1017,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
