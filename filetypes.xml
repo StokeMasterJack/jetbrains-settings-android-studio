@@ -14,6 +14,7 @@
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bash" approved="true" type="Shell Script" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="jsf" approved="true" type="JSP" />
       <removed_mapping ext="psd" approved="true" type="Adobe Photoshop" />
       <removed_mapping ext="py" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
