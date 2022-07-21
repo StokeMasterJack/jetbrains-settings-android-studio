@@ -292,6 +292,11 @@
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toRegex").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
     </injection>
     <injection language="MySQL" injector-id="kotlin">
+      <display-name>conn.executeBatch</display-name>
+      <single-file value="false" />
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("executeBatch").withReceiver("java.sql.Connection"))]]></place>
+    </injection>
+    <injection language="MySQL" injector-id="kotlin">
       <display-name>conn.executeQuery</display-name>
       <single-file value="false" />
       <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("executeQuery").withReceiver("java.sql.Connection"))]]></place>
