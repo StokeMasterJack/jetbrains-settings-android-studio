@@ -292,6 +292,16 @@
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toRegex").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
     </injection>
     <injection language="MySQL" injector-id="kotlin">
+      <display-name>conn.bool</display-name>
+      <single-file value="false" />
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("bool").withReceiver("java.sql.Connection"))]]></place>
+    </injection>
+    <injection language="MySQL" injector-id="kotlin">
+      <display-name>conn.boolOrNull</display-name>
+      <single-file value="false" />
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("boolOrNull").withReceiver("java.sql.Connection"))]]></place>
+    </injection>
+    <injection language="MySQL" injector-id="kotlin">
       <display-name>conn.executeBatch</display-name>
       <single-file value="false" />
       <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("executeBatch").withReceiver("java.sql.Connection"))]]></place>
@@ -312,9 +322,19 @@
       <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("int").withReceiver("java.sql.Connection"))]]></place>
     </injection>
     <injection language="MySQL" injector-id="kotlin">
+      <display-name>conn.intOrNull</display-name>
+      <single-file value="false" />
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("intOrNull").withReceiver("java.sql.Connection"))]]></place>
+    </injection>
+    <injection language="MySQL" injector-id="kotlin">
       <display-name>conn.str</display-name>
       <single-file value="false" />
       <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("str").withReceiver("java.sql.Connection"))]]></place>
+    </injection>
+    <injection language="MySQL" injector-id="kotlin">
+      <display-name>conn.strOrNull</display-name>
+      <single-file value="false" />
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("strOrNull").withReceiver("java.sql.Connection"))]]></place>
     </injection>
     <injection language="JSON" injector-id="sql">
       <display-name>ClickHouse JSON</display-name>
