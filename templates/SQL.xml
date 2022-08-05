@@ -3,6 +3,5 @@
     <variable name="table_name" expression="dbObjectName" defaultValue="" alwaysStopAt="true" />
     <variable name="col" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>
