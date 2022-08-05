@@ -1,12 +1,9 @@
 <application>
   <component name="MarkdownApplicationSettings">
-    <MarkdownCssSettings UriEnabled="true" StylesheetUri="/Volumes/repos/scratch/t3/css/intellij-markdown.css">
-      <option name="fontSize" value="13" />
-    </MarkdownCssSettings>
-    <MarkdownPreviewSettings AutoScrollPreview="false" />
-    <enabledExtensions>
-      <entry key="MermaidLanguageExtension" value="false" />
-      <entry key="PlantUMLLanguageExtension" value="false" />
-    </enabledExtensions>
+    <MarkdownPreviewSettings>
+      <HtmlPanelProviderInfo>
+        <ProviderInfo name="JCEF Browser" className="org.intellij.plugins.markdown.ui.preview.jcef.JCEFHtmlPanelProvider" />
+      </HtmlPanelProviderInfo>
+    </MarkdownPreviewSettings>
   </component>
 </application>

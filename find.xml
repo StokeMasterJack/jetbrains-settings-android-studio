@@ -2,29 +2,14 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="localCaseSensitive" value="true" />
-    <option name="localWholeWordsOnly" value="true" />
-    <option name="skipResultsWithOneUsage" value="true" />
-    <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
-    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.tsx*</mask>
-    <mask>*.kts</mask>
-    <mask>*.js*</mask>
-    <mask>*.kt*</mask>
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
-    <mask>*.java</mask>
-    <mask>*.css</mask>
-    <mask>package.json</mask>
-    <mask>*.d.ts</mask>
-    <mask>*.js</mask>
-    <mask>*.ts</mask>
-    <mask>*.html</mask>
-    <mask>*.tsx</mask>
-    <mask>*.ts*</mask>
-    <mask>*.xml</mask>
+    <mask>*.kts</mask>
     <mask>*.kt</mask>
+    <mask>*.java</mask>
   </component>
 </application>

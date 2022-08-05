@@ -36,9 +36,4 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="val" value="final $END$;" description="final" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="DART_STATEMENT" value="true" />
-    </context>
-  </template>
 </templateSet>

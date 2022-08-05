@@ -1,7 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="XML/Remove attribute" />
-    <ignoreAction name="Java/Declaration/Create Test" />
-    <ignoreAction name="Database/Run query in console" />
-  </component>
-</application>

@@ -1,27 +1,22 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*.tsbuildinfo;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
-      <mapping pattern="_AwadAa3bOucM4IN3Cy-zxIzyDWTukEI_fnDekfgJ10" type="AUTO_DETECTED" />
-      <mapping pattern="EntityManagerExt" type="AUTO_DETECTED" />
-      <mapping pattern="ddd" type="AUTO_DETECTED" />
-      <mapping ext="tsbuildinfo" type="JSON" />
-      <mapping ext="js " type="JavaScript" />
-      <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern=".env.stage" type="PLAIN_TEXT" />
+      <mapping pattern="savers" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
-      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="bash" approved="true" type="Shell Script" />
-      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
-      <removed_mapping ext="jsf" approved="true" type="JSP" />
-      <removed_mapping ext="psd" approved="true" type="Adobe Photoshop" />
-      <removed_mapping ext="py" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="sh" approved="true" type="Shell Script" />
-      <removed_mapping ext="zsh" approved="true" type="Shell Script" />
-      <removed_mapping pattern=".analysis_options" approved="true" type="YAML" />
-      <removed_mapping pattern="pubspec.lock" approved="true" type="YAML" />
-      <mapping pattern=".zshrc" type="BashPro Shell Script" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <mapping pattern="*.tsconfig.json" type="tsconfig" />
     </extensionMap>
   </component>
 </application>

@@ -45,11 +45,4 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="val" value="const $END$;" description="const" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="HTML" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
 </templateSet>
