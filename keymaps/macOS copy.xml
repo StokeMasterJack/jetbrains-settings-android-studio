@@ -75,10 +75,16 @@
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="NewScratchFile" />
+  <action id="OverrideMethods">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
@@ -91,4 +97,5 @@
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="shift ctrl meta e" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
 </keymap>
